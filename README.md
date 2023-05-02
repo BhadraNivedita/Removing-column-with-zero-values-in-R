@@ -4,5 +4,4 @@ It is very common to receive a dataset for analyses which consists of columns fi
 
 ```
 DF_complete<-DF[,colSums(is.na(DF)) == 0]
-
 '''
